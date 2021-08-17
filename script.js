@@ -1,18 +1,8 @@
 const name = 'Daniel'
-
 const age = 36
+let hobby = 'programistę'
 
-// const potrawa = 'Pizza'
-// console.log(imie);
-// console.log(wiek);
-// console.log('Ulubiona potrawa to ' +potrawa);
-
-// document.write(“ < h1 > Hello world! < /h1 > ”);
-// document.close();
-
-
-  document.write("<h1>Hello</h1> <</p>" + name + "  " + age);
-
-                                                
-  document.close;
- 
+//Template string
+console.log(`Cześć, mam na imię ${name} i zaczynam zabawę w ${hobby}`)
+//Zwykla metoda z +
+console.log('Cześć, mam na imie ' + name + ' i zaczynam zabawe w ' + hobby);
