@@ -1,10 +1,18 @@
-const imie = 'Daniel'
+const name = 'Daniel'
 
-const wiek = 36
+const age = 36
 
-const potrawa = 'Pizza'
-console.log(imie);
-console.log(wiek);
+// const potrawa = 'Pizza'
+// console.log(imie);
+// console.log(wiek);
+// console.log('Ulubiona potrawa to ' +potrawa);
+
+// document.write(“ < h1 > Hello world! < /h1 > ”);
+// document.close();
 
 
-console.log('Ulubiona potrawa to ' +potrawa);
+  document.write("<h1>Hello</h1> <</p>" + name + "  " + age);
+
+                                                
+  document.close;
+ 
