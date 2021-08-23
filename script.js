@@ -83,6 +83,7 @@ if (false || false) {
 	console.log('DOWN')
 }
 
-let number = '10';
-const newNumber = number += 10
-console.log(newNumber);
+let number = '10'
+const newNumber = (number += 10)
+console.log(newNumber)
+console.log(number.lastIndexOf(0))
