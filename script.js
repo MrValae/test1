@@ -87,3 +87,18 @@ let number = '10'
 const newNumber = (number += 10)
 console.log(newNumber)
 console.log(number.lastIndexOf(0))
+
+const numbers = [5, 8, 10, 23, 48, 60] //tablica z liczbami
+
+for (const number of numbers) {
+	// "const" musi być zawsze bo zmienna musi zostać zadeklarowana //
+	console.log(number / 5) //wypisujemy wynik dzielenia zmiennej "dzielenie" przez 5
+}
+console.log('-------------')
+
+for (const number of numbers) {
+	//wypisuje wszystkie liczby z tablicy spełniające warunek
+	if (number % 2 == 0) {
+		console.log(` %cLiczba ${number} jest parzysta `, 'background-color: gold; color:black')
+	} else console.log(` %cLiczba ${number} jest nieparzysta `, 'background-color: tomato; color:black')
+}

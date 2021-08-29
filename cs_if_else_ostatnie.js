@@ -10,14 +10,13 @@
 // } else {
 // 	console.log(message2.toLocaleUpperCase())
 // }
-
 const x = 6
 let message
 if (x >= 100) {
 	message = 'x >= 100 '
 } else if (x < 100 && x > 30) {
-	message = 'x jest średniakiem'
-} else {
-	message = 'x jest mały'
+    message = 'x jest średniakiem'
+} else{
+    message  = 'x jest mały'    
 }
-console.log(message.toUpperCase())
+console.log(message.toUpperCase());
